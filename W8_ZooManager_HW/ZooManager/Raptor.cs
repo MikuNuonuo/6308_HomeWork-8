@@ -15,8 +15,8 @@ namespace ZooManager
             reactionTime = 1; // reaction time of 1 
         }
 
-        List<string> raptorHunt = new List<string>() {"cat", "mouse" };
-        List<string> raptorFlee = new List<string>() { "alien" };
+        List<string> raptorHunt = new List<string>() {"cat", "mouse" }; // hunt cat and mouse
+        List<string> raptorFlee = new List<string>() { "alien" }; // can be hunt by alien
 
         public override void Activate(List<List<Zone>> animalZones)
         {

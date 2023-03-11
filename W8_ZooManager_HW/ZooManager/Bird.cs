@@ -8,7 +8,6 @@ namespace ZooManager
     public class Bird:Animal
     {//(feature b)Develop a new Animal subclass Bird
 
-
     }
 
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ZooManager
 {
-    public class BaseItem
+    public class BaseItem // this class contain all common method of Alien and Animal
     {
         public string emoji;
         public string species;
@@ -92,6 +92,11 @@ namespace ZooManager
             animalZones[y][x].occupant = null;
         }
 
+        /* Hunt method 
+         * need input list of animalZones and List of preyAnimal 
+         * call by Prey
+         * return bool
+         */
         public void BaseHunt(List<List<Zone>> animalZones, List<string> preyAnimal)
         {
             if (Seek(location.x, location.y, animalZones, Direction.up, preyAnimal))

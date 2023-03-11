@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\W7_ZooManager_HW",
-    "\\W7_ZooManager_HW\\ZooManager"
+    "\\W7_ZooManager_HW\\ZooManager",
+    "\\W7_ZooManager_HW\\ZooManager\\Pages"
   ],
-  "SelectedNode": "\\W7_ZooManager_HW\\ZooManager\\BaseItem.cs",
+  "SelectedNode": "\\W7_ZooManager_HW\\ZooManager\\Animal.cs",
   "PreviewInSolutionExplorer": false
 }

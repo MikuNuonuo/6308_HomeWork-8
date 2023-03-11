@@ -16,7 +16,7 @@ namespace ZooManager
              * so mice are more likely to react to their surroundings faster than cats!
              */
         }
-        List<string> mouseFlee = new List<string>() { "cat", "alien" ,"raptor"};
+        List<string> mouseFlee = new List<string>() { "cat", "alien" ,"raptor"}; // can be hunt by cat, alien and raptor
 
         public override void Activate(List<List<Zone>> animalZones)
         {

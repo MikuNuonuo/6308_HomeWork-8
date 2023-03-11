@@ -7,7 +7,7 @@ namespace ZooManager
 {
     public class Alien: BaseItem, IPredator
     {
-
+        //Alien hunt all kinds of animals
         List<string> AlienHunt = new List<string>() { "cat", "mouse","chick", "raptor"};
 
         public Alien(string name)

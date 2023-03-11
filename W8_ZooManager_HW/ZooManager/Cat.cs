@@ -13,8 +13,8 @@ namespace ZooManager
             this.name = name;
             reactionTime = new Random().Next(1, 6); // reaction time 1 (fast) to 5 (medium)
         }
-        List<string> catFlee = new List<string>() { "raptor", "alien" };
-        List<string> catHunt = new List<string>() { "mouse", "chick" }; //(feature c, cat hunt chicks)
+        List<string> catFlee = new List<string>() { "raptor", "alien" }; // can be hunt by raptor and alien
+        List<string> catHunt = new List<string>() { "mouse", "chick" }; //(feature c and e, cat hunt chicks and mouse)
 
         public override void Activate(List<List<Zone>> animalZones)
         {
@@ -34,12 +34,7 @@ namespace ZooManager
         public void Hunt(List<List<Zone>> animalZones) {
             if (Flee(animalZones)) return;
             BaseHunt(animalZones, catHunt);
-        }
-
-
-      
-
-
+        }     
     }
 }
 
